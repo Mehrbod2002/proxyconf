@@ -1,6 +1,8 @@
 # proxyconf
 # Configure Last Proxies
-![Image of Script](https://github.com/mehrbod2002/proxyconf/img.png)
+![](https://github.com/Mehrbod2002/proxyconf/blob/master/img.png?raw=true)
+
+
 Install It :
 ```bash
 sudo git clone https://github.com/Mehrbod2002/proxyconf
