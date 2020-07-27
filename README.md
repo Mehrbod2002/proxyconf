@@ -10,5 +10,5 @@ sudo bash install.sh
 ```
 ReOpen Terminal . Then Just Type "proxyconf":
 ```bash
-sudo proxyconf
+proxyconf
 ```
