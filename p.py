@@ -31,8 +31,6 @@ def check_root():
   sys.exit(t()+bcolors.FAIL+" Run As ROOT\n")
  else:
   print(t()+bcolors.GREEN+" Start Configuring...")
-def reinstallit():
-  s=os.system("apt-get reinstall proxychains")
 def check_website():
   print(t()+bcolors.GREEN+" Check Last Proxy ... ")
   try:
@@ -85,7 +83,7 @@ def parse():
   while i<s:
    pro=lines[i]
    prox=pro.split(":")
-   prox1="socks4 "+prox[0]+" "+prox[1]
+   prox1="socks4  "+prox[0]+" "+prox[1]
    f=open(pathp,"a")
    f.write(prox1)
    i+=1
@@ -94,7 +92,6 @@ def parse():
 def main():
  banner()
  check_root()
- reinstallit()
  check_website()
  otro()
  parse()
